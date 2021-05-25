@@ -1,6 +1,6 @@
 # CARE4THER APP USING ML AND ANDROID 
 
-Nearly 80% of accidents take place yearly . this piece of code will help the users to detect an accident an a early stage and it is detected by different libraries like Deep learning etc.
+Nearly 80% of accidents take place yearly. this piece of code will help the users to detect an accident at an early stage and it is detected by different libraries like Deep learning etc.
 
 ## Code Requirements
 
@@ -13,7 +13,7 @@ pip install requirements.txt
 * Finally, run model.py for testing your model.
 
 The Algorithm:
-Each video is a set of individual images that are time-dependent sequences. The algorithm - a hierarchical recurrent neural network - is able to treat each video as a time-dependent sequence, but still allow each video to be an independent data point.
+Each video is a set of individual images that are time-dependent sequences. The algorithm - a hierarchical recurrent neural network - can treat each video as a time-dependent sequence, but still, allows each video to be an independent data point.
 
 The algorithm uses two layers of long short-term memory neural networks. The first neural network (NN) is a recurrent network that analyzes the time-dependent sequence of the images within each video. The second takes the encoding of the first NN and builds a second NN that reflects which videos contain accidents and which do not. The resulting model enables a prediction of whether new dashcam footage has an accident.
 
@@ -30,12 +30,12 @@ Through this method, the HRNN incorporates a time-dependent aspect of the frames
 
 *Why this project is important*
 
-To prevent accidents , this is the app that can tell the location of the accident and it could prevent the accidents.
+To prevent accidents, this is the app that can tell the location of the accident and it could prevent the accidents.
 
 
 *FEATURES OF THE APP*
 
-The app is made using Java language, various features are being added in the app like.. alert system for an accident,sensors,etc	The app is made using Java language, various features are being added in the app like.. alert system for an accident,sensors,etc
+The app is made using Java language, various features are being added in the app like.. alert system for an accident, sensors,etc	The app is made using Java language, various features are being added in the app like.. alert system for an accident, sensors,etc
 
 
 Try implementing this project and suggest changes:)	Try implementing this project and suggest changes:)
@@ -76,11 +76,11 @@ Before you begin, make sure you have the Android Studio SDK downloaded and set u
 
 5. Once all build errors have been resolved, you should be all set to build the app and test it.
 
-6. To Build the app, go to _Build>Make Project_ (or alternatively press the Make Project icon in the toolbar).
+6. To Build the app, go to _Build>Make Project_ (or press the Make Project icon in the toolbar).
 
 7. After the app is built successfully, you can test it by running it on either a real device or an emulator by going to _Run>Run 'app'_ or pressing the Run icon in the toolbar.
 
-If you want to build apk only, go to Build>Build apk and apk would be build and directory where apk is generated would be prompted by Android Studio.
+If you want to build apk only, go to Build>Build apk and apk would be built, and the directory, where apk is generated, would be prompted by Android Studio.
 
 ## Contributions Best Practices
 
@@ -92,13 +92,13 @@ Please help us follow the best practice to make it easy for the reviewer as well
  * Reference the issue numbers in the commit message. Follow the pattern ``` Fixed #<issue number> <commit message>```
  * Follow uniform design practices. The design language must be consistent throughout the app.
  * The pull request will not get merged until and unless the commits are squashed. In case there are multiple commits on the PR, the commit author needs to squash them and not the maintainers cherrypicking and merging squashes.
- * If the PR is related to any front end change, please attach relevant screenshots in the pull request description.
+ * If the PR is related to any front-end change, please attach relevant screenshots in the pull request description.
 
 #### How to `git squash`?
 
-As a tip for new developers those who struggle with squashing commits into one, multiple commits may appear in your pull request mostly due to following reasons.
+As a tip for new developers who struggle with squashing commits into one, multiple commits may appear in your pull request mostly due to the following reasons.
 
- * Intentionally adding multiple commit messages after each change without just `git add`ing.
+ * Intentionally adding multiple commit messages after each change without just `git adding.
  * Updating the current branch with the remote so a merge commit takes place.
 
 You can also follow this easy and helpful tutorial: [How to squash commits](https://www.youtube.com/watch?v=viY1BbKZhSI&ab_channel=StudyZone)
@@ -130,11 +130,11 @@ Despite any reason, follow the steps given below to squash all commits into one 
 
 ### Code style
 
-Please try to follow the mentioned guidelines while before submitting your code as so that uniform code style is maintained in the project. It also makes it easier for the reviewer and other developers to understand.
+Please try to follow the mentioned guidelines while before submitting your code so that a uniform code style is maintained in the project. It also makes it easier for the reviewer and other developers to understand.
 
- * While naming the layout files, ensure that the convention followed is (activity/fragment) _ (name).xml like ```activity_main.xml``` , ```fragment_user_location.xml``` .
- * * The activity/fragment file name corresponding to the layout files should be named as                       (activity/fragment name)(activity/fragment).java like ```UserLocationActivity.java``` corresponding to the layout file ```activity_user_location.xml``` , ```UserLocationFragment.java``` corresponding to the layout file ```fragment_user_location.xml``` .
- * Name the views and widgets defined in the layout files as (viewtype/widget) _ (name) _ (no. in the file if any) like  ```button_save``` , ```editText_user_location``` .
+ * While naming the layout files, ensure that the convention followed is (activity/fragment) _ (name).xml like ```activity_main.xml```, ```fragment_user_location.xml```.
+ * * The activity/fragment file name corresponding to the layout files should be named as                       (activity/fragment name)(activity/fragment).java like ```UserLocationActivity.java``` corresponding to the layout file ```activity_user_location.xml```, ```UserLocationFragment.java``` corresponding to the layout file ```fragment_user_location.xml```.
+ * Name the views and widgets defined in the layout files as (view type/widget) _ (name) _ (no. in the file if any) like  ```button_save```, ```editText_user_location```.
 
 ### This Project is associated to 
 [<img src="https://crosswoc.ieeedtu.in/images/imgcw.png" width = "400px">](https://crosswoc.ieeedtu.in/)
